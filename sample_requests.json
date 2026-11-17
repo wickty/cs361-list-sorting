@@ -1,0 +1,60 @@
+[
+  {
+    "scenario": "Ascending",
+    "request": {
+      "action": "sort",
+      "items": [
+        {
+          "name": "A",
+          "score": 9
+        },
+        {
+          "name": "B",
+          "score": 2
+        },
+        {
+          "name": "C",
+          "score": 5
+        }
+      ],
+      "field": "score",
+      "order": "asc"
+    }
+  },
+  {
+    "scenario": "Descending",
+    "request": {
+      "action": "sort",
+      "items": [
+        {
+          "name": "A",
+          "score": 9
+        },
+        {
+          "name": "B",
+          "score": 2
+        },
+        {
+          "name": "C",
+          "score": 5
+        }
+      ],
+      "field": "score",
+      "order": "desc"
+    }
+  },
+  {
+    "scenario": "Missing field",
+    "request": {
+      "action": "sort",
+      "items": [
+        {
+          "name": "A",
+          "score": 9
+        }
+      ],
+      "field": "points",
+      "order": "asc"
+    }
+  }
+]
